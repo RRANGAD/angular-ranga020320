@@ -5,6 +5,11 @@ import { Component } from '@angular/core';
   styleUrls: [ './top-bar.component.css' ]
 })
 
-export class topbarComponent  {
-  name = 'Angular';
+export class TopBarComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
 }
